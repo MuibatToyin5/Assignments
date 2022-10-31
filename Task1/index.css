@@ -1,0 +1,75 @@
+.flex-container{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.flex-item{
+    border: 1px solid black;
+}
+
+.item-1{
+    background-color: orange;
+    width: 150px;
+    height: 300px;
+}
+.item-2{
+    background-color: teal;
+    width: 200px;
+    height: 300px;
+}
+.item-3{
+    background-color: rgb(16, 43, 43);
+    width: 150px;
+    height: 300px;
+}
+.click-1{
+    border: none;
+    background-color: white;
+    color: orange;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;    
+}
+.click-2{
+    border: none;
+    background-color: white;
+    color: teal;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.click-3{
+    border: none;
+    background-color: white;
+    color: darkslategrey;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.click-1:hover{
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+}
+.click-2:hover{
+    background-color: teal;
+    color: white;
+    border: 1px solid white;
+}
+.click-3:hover{
+    background-color:  rgb(16, 43, 43);
+    color: white;
+    border: 1px solid white;
+}
