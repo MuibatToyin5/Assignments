@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+    background-size: cover;
+    padding: 15px 0;
+}
+h1, p{
+    font: bolder;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
