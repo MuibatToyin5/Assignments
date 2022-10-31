@@ -1,0 +1,152 @@
+html{
+    scroll-behavior: smooth;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+  }
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav h1{
+    color: #e2679e;
+  }
+  nav a{
+    color:  #e2679e;
+    transition: all;
+  }
+  nav a:hover{
+    color: #e80074;
+    border-bottom: 2px solid;
+  }
+  nav ul{
+    display: flex;
+    gap: 1.9rem;
+  }
+  nav ul li{
+    font-weight: bold;
+  }
+  .select{
+    display: none;
+    cursor: pointer;
+  }
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+  .hero img{
+    height: 35.5rem;
+    width: 35.5rem;
+  }
+  .bio{
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px;
+    background-color: pink;
+  }
+  .bio h1{
+    margin-bottom: 1%;
+  }
+  .bio p{
+    line-height: 2rem;
+    padding: 0.3rem 0;
+  }
+  .services, .projects, .contact{
+    box-shadow: 0px 2px 15px 2px;
+    background-color: #e796ac;
+    max-width: 65rem;
+    margin: auto;
+    padding: 0.625rem;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  .services ul{
+    list-style-type: circle;
+    display: flex;
+    gap: 1.9rem;
+  }
+  .projects-container{
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+  }
+  .contact{
+    margin-top: 2rem;
+  }
+  .contact h2{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .contact-form-container{
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 0.9rem;
+    border-radius: 5px,
+    box-shadow: 0 3px 10px;
+  }
+  .contact-form-container label{
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: #b52b46;
+  }
+  .contact-form-container textarea{
+    min-height: 6.25rem;
+    font-size: 14px;
+  }  
+  .contact-form-container.input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset;
+    font-size: 0.8rem;
+    outline: none; 
+  }
+  .submit-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .submit-btn:hover{
+    background-color: #b75796;
+    border: 2px solid;
+    cursor: pointer;
+  }
+  footer{
+    background-color:  #b75796;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
+  
